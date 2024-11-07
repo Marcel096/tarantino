@@ -26,4 +26,3 @@ def fechar_conexao(conexao):
     if conexao.is_connected():
         conexao.close()
         print("Conexão com o banco de dados fechada.")
-        print('primeiro branch')

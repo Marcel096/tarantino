@@ -4,7 +4,7 @@ def main():
    if conexao is not None:
         try:
             cursor = conexao.cursor()
-            cursor.execute("SELECT * FROM usuario")  # Consulta SQL
+            cursor.execute("SHOW TABLES;")  # Consulta SQL
             resultados = cursor.fetchall()
 
             print("Lista de usuários:")
