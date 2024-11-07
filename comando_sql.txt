@@ -1,0 +1,26 @@
+#   Criar banco de dados
+CREATE DATABASE 'nome do projeto';
+
+#   Conectar ao banco
+USE 'nome projeto';
+
+#   Crair uma Tabela
+CREATE TABLE 'nome da tabela' (
+NOME VARCHAR(30),
+SEXO CHAR(1)
+EMAIL VARCHAR(30)
+
+):
+
+#   Verificar tabela do banco
+SHOW TABLES;
+
+#   Descobrindo como é a estrutura de uma tabela
+DESC 'nome da tabela'
+
+#   Inserção de dado
+INSERT INTO 'nome da tabela'(id, nome, apelido, email) VALUES(2, 'Eliana', 'Linda', elianaOliveira@gmail.com)
+
+#   Seleção de Projeção
+SELECT * FROM 'tabela';
+SELECT NOME from usuarios; 

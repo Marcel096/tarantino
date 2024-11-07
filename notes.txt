@@ -1,14 +1,27 @@
 driver de conexão mariadb
 pip install mysql-connector-python
 
-estrutura básica de projeto python
+#   Estrutura básica de projeto python,
 def main():
     print("Hello, World!")
 
 if __name__ == "__main__":
     main()
 
+
+#   Comando para inserir SQl
 INSERT INTO usuario (id, genero, nome, apelido, email) VALUES (1, NULL, 'Marcelo', 'Zara', 'marcelo.ds@gmail.com' ) 
 
 #   LIB
 https://pypi.org/project/mysql-connector-python/
+
+#   git chave
+ssh-keygen -t ed25519 -C "marcelo.ds9687@gmail.com"
+
+# Tipagem de banco de dados
+CHAR(fixo) recomendado o valor da coluna nunca for variante como UF 'SP'
+
+VARCHAR(variante) recomendado para valores de comprimento variável
+VARCHAR bom uso para cpf e cnpj: podemos add -/ entre outro caractere especiais
+
+ENUM = enumeração
