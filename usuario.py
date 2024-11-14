@@ -27,8 +27,8 @@ class Usuario:
         self.nome = novo_nome
         print(f'Nome alterado com sucesso para: {self.nome}')
         
-
     def alterar_email(self, novo_email):
+       '''Alterar o email do usuário para um novo valor fornecido'''
        pass
 
     def alterar_apelido(self, novo_apelido):
@@ -40,22 +40,5 @@ class Usuario:
         print(f'Apelido alterado com sucesso para: {self.apelido}')
 
     def excluir_conta(self):
-        pass
-
-    def lista_filmes_favoritos(self):
-        pass
-    
-    def lista_quero_assistir(self):
-        pass
-
-    def seguir_usuario(self):
-        pass
-
-    def fazer_comentario(self):
-        pass
-
-    def aplicar_nota_filme(self):
-        pass
-
-    def lista_filmes_visto(self):
+        '''Deletar a conta do usuário no banco de dados '''
         pass
