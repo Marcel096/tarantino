@@ -1,6 +1,5 @@
 class Filmes:
-    def __init__(self, titulo, descricao, duracao):
-      
+    def __init__(self, titulo, descricao, duracao):    
       self.titulo = titulo
       self.descricao = descricao
       self.duracao = duracao

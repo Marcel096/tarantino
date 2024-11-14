@@ -22,5 +22,3 @@ class ListarFilmes:
     def listar_filmes_vistos(self, usuario):
         '''Retorna uma lista de filmes vistos pelo o usuário'''
         pass
-
-    
